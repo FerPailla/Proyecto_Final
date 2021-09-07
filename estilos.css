@@ -1,0 +1,149 @@
+* {
+    margin: 3px;
+    padding: 0px;
+  }
+  
+  header h1 {
+    color: white;
+    text-align: center;
+    font-family: "Castoro", serif;
+    font-size: 45px;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+  }
+  
+  header .imagen {
+    height: 150px;
+    background-image: url(./paginas/img/imagenrestaurante.jpg);
+    background-position: bottom;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  
+  .navbar {
+    background-color: brown;
+  }
+  
+  body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#87ec7e), to(#d8c947));
+    background: linear-gradient(to bottom, #87ec7e, #d8c947);
+  }
+  
+  body p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: black;
+  }
+  
+  body a {
+    color: crimson;
+  }
+  
+  .menu_ {
+    margin: 4em 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  
+  h2 {
+    color: crimson;
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .quienes {
+    color: darkblue;
+  }
+  
+  .artquienes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    font-size: 2rem;
+  }
+  
+  .bodas {
+    color: sienna;
+    font-weight: bold;
+  }
+  
+  .cumple {
+    color: tomato;
+    font-weight: bold;
+  }
+  
+  .corp {
+    color: chocolate;
+    font-weight: bold;
+  }
+  
+  table {
+    background-color: #68bb94;
+  }
+  
+  table td li {
+    color: olive;
+  }
+  
+  table td ul {
+    list-style: none;
+  }
+  
+  table th {
+    color: darkgoldenrod;
+  }
+  
+  .lorem {
+    font-size: 2rem;
+  }
+  
+  .header__h1--color {
+    color: #00ff73;
+  }
+  
+  .footer--backgound {
+    background: -webkit-gradient(linear, left bottom, left top, from(brown), to(#a5882a));
+    background: linear-gradient(to top, brown, #a5882a);
+  }
+  
+  .nav--height {
+    height: 50px;
+  }
+  
+  .aside--text-align {
+    text-align: right;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    body {
+      background-color: #5ed45e;
+    }
+  }
+  
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #5ed45e;
+    }
+  }
+  
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #5ed45e;
+    }
+  }
+  /*# sourceMappingURL=estilos.css.map */
