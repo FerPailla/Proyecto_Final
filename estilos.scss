@@ -1,0 +1,137 @@
+$crimson: crimson;
+$fweight: bold;
+
+
+* {
+  margin: 3px;
+  padding: 0px;
+}
+
+header {
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: "Castoro", serif;
+    font-size: 45px;
+    animation: {
+      duration: 2s;
+    }
+  }
+
+
+  .imagen {
+    height: 150px;
+    background-image: url(./paginas/img/imagenrestaurante.jpg);
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+}
+.navbar{
+  background-color: brown;
+}
+
+$animal: gato;
+
+body {
+  background: linear-gradient(to bottom, rgb(135, 236, 126), rgb(216, 201, 71));
+ p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    
+    @if $animal == gato {
+      color: black;
+    }
+  }
+
+  a {
+    color: $crimson;
+  }
+}
+
+
+.menu_ {
+    margin: 4em 0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+h2 {
+  color: $crimson;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+.quienes {
+  color: darkblue;
+}
+.artquienes {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 2rem;
+}
+.bodas {
+  color: sienna;
+  font-weight: $fweight;
+}
+.cumple {
+  color: tomato;
+  font-weight: $fweight;
+}
+.corp {
+  color: chocolate;
+  font-weight: $fweight;
+}
+
+table {
+  background-color: rgb(104, 187, 148);
+  td {
+    li {
+      color: olive;
+    }
+    ul {
+      list-style: none;
+    }
+  }
+  th {
+    color: darkgoldenrod;
+  }
+}
+
+.lorem{
+  font-size: 2rem;
+}
+
+.header__h1--color {
+  color: rgb(0, 255, 115);
+}
+
+.footer--backgound {
+ background: linear-gradient(to top, brown, rgb(165, 136, 42));
+}
+.nav--height {
+  height: 50px;
+}
+.aside--text-align{
+  text-align: right;
+}
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: rgb(94, 212, 94);
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: rgb(94, 212, 94);
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: rgb(94, 212, 94);
+  }
+}
